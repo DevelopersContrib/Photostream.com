@@ -1,0 +1,18 @@
+/*	challenge new style
+------------------------------------------------------------------------------*/
+.recnt-pic{
+	margin-right: 3px;
+    max-height: 30px !important;
+    max-width: 30px !important;
+}
+span.meta-date-challenges{
+	font-size:11px;
+	color:#666666;
+}
+.news-items li {
+    border-bottom: 1px dotted #CCCCCC;
+    display: table;
+    margin-bottom: 1em;
+    padding: 0 2em 1em 1.5em;
+	width: 83% !important;
+}

@@ -1,0 +1,143 @@
+			
+			.inquiryMainCont{
+                float: left;
+                width: 315px;
+                padding: 5px 10px;
+                height: 470px;
+                background: #fff;
+                font-family: 'Open Sans',sans-serif;
+				color:black;
+				border-radius: 10px;
+				text-align: left;
+            }
+            .inquiryMainCont h1, .inquiryMainCont h2, .inquiryMainCont h3, .inquiryMainCont h4, .inquiryMainCont h5{
+                font-weight: 300;
+                font-family: 'Open Sans',sans-serif;
+            }
+            .inquiryMainCont .ttleCapt{
+                font-size:19px;
+                text-transform:capitalize;
+                line-height:normal;
+            }
+            .inquiryMainCont .formDesc{
+                border-top: 1px solid #eee;
+                margin-bottom: 5px;
+                line-height:normal;
+            }
+            .inquiryMainCont .formDesc small{
+                font-size:12px;
+            }
+            .inquiryMainCont .s1Input{
+                border-radius: 0 !important;
+                margin-bottom: 0 !important;
+                min-height: 25px !important;
+				font-size: 12px;
+            }
+            .inquiryMainCont .btn.blue {
+                background: #4D90FE;
+                color: #FFFFFF;
+                text-shadow: none;
+                border: none;
+                border-radius:0;
+                padding: 6px 14px !important;
+				font-size: 14px;
+            }
+            .inquiryMainCont .btn.blue:hover,.btn.blue:focus, .btn.blue:active,.btn.blue.active,.btn.blue[disabled],
+            .inquiryMainCont .btn.blue.disabled {  
+                background: #0362fd;
+                color: #fff;
+                outline: none;
+            }
+            .inquiryMainCont form{
+                margin-bottom: 5px !important;
+            }
+            .inquiryMainCont .form-actions{
+                margin-bottom:0;
+            }
+            .inquiryMainCont .stepsMain{
+                padding: 5px 15px;
+				margin-top: 20px;
+            }
+            .inquiryMainCont .step{
+                color:#C09853;
+                padding: 0 15px 10px 5px;
+                background-color: #FCF8E3;
+                border: 1px solid #FBEED5;
+                margin-bottom: 15px;
+                text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+                line-height: normal;
+            }
+            .inquiryMainCont .step h4{
+                font-size: 15.5px;
+            }
+            .inquiryMainCont .step p{
+                margin-bottom: 5px;
+                font-size:13px;
+            }
+            .inquiryMainCont .f-a-style{
+                margin-top: 5px;
+            }
+            .inquiryMainCont .formTwo{
+                min-height: 30px;
+                margin-right: 2%;
+				margin-top: 5px;
+                float:left;
+                width: 48%;
+            }
+            .inquiryMainCont .formTwo label{
+                font-size: 11.49px;
+                margin-bottom: 1px;
+            }
+            .inquiryMainCont .form2Button{
+               margin-top: 2px;
+            }
+            .inquiryMainCont .selectS2{
+                border-radius: 0 !important;
+				font-size: 12px;
+				min-height: 25px !important;
+            }
+            .inquiryMainCont .selectS2.input-block-level{
+                height:20px !important;
+                margin-bottom: 0 !important;
+            }
+            .inquiryMainCont .textS2{
+                border-radius: 0 !important;
+				font-size: 12px !important;
+				line-height: 15px;
+            }
+            .inquiryMainCont .formTwo input[type="file"]{
+                width: 100% !important;
+            }
+            .inquiryMainCont .requiredFieldError{
+                margin-top:3px;
+                color: #f00;
+                line-height:normal;
+				font-size: 10px;
+            }
+            .inquiryMainCont .text-error{
+                color: #f00 !important;
+            }
+            .inquiryMainCont .s3-marg{
+                margin-bottom: 5px;
+            }
+            .inquiryMainCont .formDesc2{
+                font-size: 16px;
+            }
+            .inquiryMainCont .emailContainer{
+                padding-top:10px;
+                margin-bottom:22px;
+            }
+            .inquiryMainCont .email-holder{
+                padding-right: 5px;
+            }
+            .inquiryMainCont .s3Input{
+                width: 100% !important;
+            }
+			#inquiry_initialemail{
+				min-height: 30px !important;
+			}
+			.inquiryMainCont .form-actions {
+				padding: 0px !important;
+				background-color: transparent !important;
+				border-top: none !important;
+			}

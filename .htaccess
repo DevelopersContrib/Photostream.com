@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^beta.photostream.com
+RewriteRule (.*) http://www.beta.photostream.com/$1 [R=301,L]
+RewriteRule ^$ index.php [L]
+RewriteCond $1 !^(index\.php|img|css|js|uploads|robots\.txt|favicon\.ico)
+RewriteRule ^(.*)$ index.php/$1 [L]

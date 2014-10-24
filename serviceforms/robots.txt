@@ -1,0 +1,6 @@
+---BEGIN ROBOTS.TXT ---
+User-Agent: *
+Disallow:
+
+Sitemap: http://photostream.com/sitemap.html
+--- END ROBOTS.TXT ----

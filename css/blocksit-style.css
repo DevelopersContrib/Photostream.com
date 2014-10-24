@@ -1,0 +1,55 @@
+
+#container{
+	position:relative;
+	width:100%;
+	padding-bottom: 10px;
+	
+}
+.grid{
+	width:188px;
+	min-height:100px;
+	padding: 15px;
+	background:#fff;
+	margin:8px;
+	font-size:12px;
+	float:left;
+	box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	-moz-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	
+	-webkit-transition: top 1s ease, left 1s ease;
+	-moz-transition: top 1s ease, left 1s ease;
+	-o-transition: top 1s ease, left 1s ease;
+	-ms-transition: top 1s ease, left 1s ease;
+}
+
+.grid strong {
+	border-bottom:1px solid #ccc;
+	margin:10px 0;
+	display:block;
+	padding:0 0 5px;
+	font-size:17px;
+}
+.grid .meta{
+ text-align:right;
+ color:#777;
+ font-style:italic;
+ text-transform: capitalize;
+ transition: all 0.3s ease 0s;
+}
+.grid .meta:hover, .grid .meta:focus, .grid .meta:active{
+ color: #da220e;
+}
+
+.grid .imgholder img{
+	max-width:100%;
+	width: 100%;
+	background:#ccc;
+	display:block;
+}
+
+@media screen and (max-width : 1240px) {
+	body{
+		overflow:auto;
+	}
+}

@@ -1,0 +1,1 @@
+<a href="<?php echo $this->gopenid->authUrl() ?>">Login with Google</a>

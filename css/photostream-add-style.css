@@ -1,0 +1,163 @@
+#prev-img-ul > li{
+	width: 200px;
+	padding: 0;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+#prev-img-ul > li > a > img{
+	width: 190px;
+	height: 190px;
+}
+.ttle-p-solo{
+	font-size:16px;
+}
+#ul-gallery-container{
+	text-align: left !important;
+}
+#ul-gallery-container > li > a > img{
+	width:100%;
+	height:200px;
+}
+#ul-challenges > li{
+	border-bottom:1px dashed #ccc;
+}
+/*	FACEBOOK SUGGESTED FRIEND style
+-----------------------------------------*/
+#facebook{height:127px;width:92%;overflow:hidden;padding:6px 10px 14px 10px;margin:0;}
+#facebook li{border-bottom:1px solid #ccc; margin:0; padding:0; list-style:none;}
+#facebook li{height:60px;padding:5px;list-style:none;}
+#facebook a{color:#36538D;}
+#facebook .user-title{display:block;font-weight:bold;margin-bottom:4px;font-size:11px;color:#36538D;font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;line-height: 12px}
+#facebook .addas{display:block;font-size:11px;}
+#facebook img{float:left;margin-right:14px;padding:4px;}
+#facebook .del{float:right; font-weight:bold; color:#666666}
+#facebook .del a{color:#b5b5b5;font-weight: bold;font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;}
+#facebook .del a:hover{background-color:#36538D;padding-left:1px;padding-right:1px;color:#ffffff;text-decoration: none;}
+.img-icon-fb{
+	margin: 0 !important;
+}
+/* FACEBOOK PREVIEW STYLE
+-------------------------------------------*/
+.fbAlbum {
+	position:relative;
+	width:206px;
+	height:206px;
+	cursor:pointer;
+}
+
+.fbAlbum IMG {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;
+	width:206px;
+	height:206px;
+}
+
+.fbAlbum IMG.active {
+	z-index:10;
+}
+
+.fbAlbum IMG.last-active {
+	z-index:9;
+}
+			
+.albumDetails{
+	float:left;			
+	width:206px;
+	height:270px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.albumTitle{
+	font-family: 'helvetica neue', helvetica, arial, sans-serif;
+	white-space: nowrap;
+	font-weight:bold;
+	font-size:14px;
+	padding:10px 0 5px 0;
+	text-align:left;
+	
+}
+
+.albumTitle a{
+	text-decoration:none;
+	color:#3B5998;
+}
+
+.albumTitle a:hover{
+	text-decoration:underline;
+}
+
+.photosNum{
+	color:gray;
+	line-height:19px;
+	font-size:11px;
+	text-align:left;
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+}
+.span-size,.span-size:hover{
+	font-size:12.5px;
+	color: #ccc;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+}
+/*	Friends User style
+---------------------------------------------------*/
+#friend-ul > li{width: 357px;height:50px;padding: 0 5px 0 0;position: relative;}
+.media2{border: 1px solid #E9EAED;}
+.fimg{width: 100px;height: 100px;}
+.p-friend{margin-bottom: 0;}
+.friend-name{margin-top: 5px;font-family: helvetica;font-weight: bold;line-height: 2;padding-right:2px;}
+/*    Challenge page TAB LEFT BLUE STYLE
+------------------------------------------------------------------------*/
+#blue-arrw > li.active:hover a,#blue-arrw > li.active a{
+    background: none repeat scroll 0 0 #169EF4;
+    border-left: medium none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#blue-arrw li{
+    padding:0;
+    position:relative;
+    margin-bottom:0;
+}
+#blue-arrw li a{
+    background: none repeat scroll 0 0 #F4F9FD;
+    border-left: medium none;
+    color: #4D82A3;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 1px;
+    padding: 8px 14px;
+    text-align: left;
+    border-radius: 0;
+    margin-right: 0;
+}
+#blue-arrw li:hover a{
+    background: none repeat scroll  0 0 #eef4f7;
+    color: #4d82a3;
+}
+#blue-arrw li a,#blue-arrw li a:hover,#blue-arrw li a:focus,#blue-arrw li a:active{
+    border-color:transparent;
+}
+.tabs-blue > .nav-tabs{
+    border-right: none;
+}
+#blue-arrw li.active b {
+    background: url("../img/nav-arrow-blue.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 35px;
+    position: absolute;
+    right: -4px;
+    top: 0;
+    width: 8px;
+}
+
+
+.tabs-blue > .nav-tabs > li > a, .tabs-blue > .nav-tabs > li > a:hover,.tabs-blue > .nav-tabs > li > a:focus{
+    border: none;
+    outline:none;
+    margin-right:0;
+}

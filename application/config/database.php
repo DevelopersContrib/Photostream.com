@@ -53,9 +53,9 @@ $active_record = TRUE;
 
 
 $db['domaindi']['hostname'] = 'localhost';
-$db['domaindi']['username'] = 'domaindi_maida';
-$db['domaindi']['password'] = 'bing2k';
-$db['domaindi']['database'] = 'domaindi_sites';
+$db['domaindi']['username'] = 'username';
+$db['domaindi']['password'] = 'password';
+$db['domaindi']['database'] = 'database';
 $db['domaindi']['dbdriver'] = 'mysql';
 $db['domaindi']['dbprefix'] = '';
 $db['domaindi']['pconnect'] = TRUE;
@@ -74,9 +74,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'photostr_maida';
-$db['default']['password'] = 'bing2k';
-$db['default']['database'] = 'photostr_streams';
+$db['default']['username'] = 'username';
+$db['default']['password'] = 'password';
+$db['default']['database'] = 'database';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
